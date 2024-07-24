@@ -8,4 +8,19 @@
 ** Defensive Security ilgili görevlerden bazıları; **
 
 - ** Kullanıcı siber güvenliği farkındalığı **; Kullanıcıların siber güvenlik konusunda eğitilmesi, sistemlerini hedef alan çeşitli saldırılara karşı korunmaya yardımcı olur
-- ** Assets belgelemek ve yönetmek **; Doğru
+- ** Assets belgelemek ve yönetmek **; Doğru şekilde yönetmemiz ve korumamamız gereken sistem ve cihaz türlerini bilmemiz gerekir.
+- ** Sistemlerin güncellenmesi ve yama uygulanması **; Bilgisyarların, sunucuların ve ağ cihazlarının  doğru şekilde güncellenmesinin ve bilinen herhangi güvenlik zafiyrtine karşı yama uygulanmasını sağlanması. 
+- ** Önleyici güvenlik cihazlarının kurulması **; Firewall (güvenlik duvarları) ve Intrusion Prevention Systems (IPS) - izinsiz giriş önleme sistemleri - önleyici güvenliğin kritik bileşenleridir. Güvenlik veya ağdan çıkabileceğini kontrol eder. IPS, mevcut kurallarla ve saldırı imzalarıyla eşleşen tm ağ trfiğini engeller. 
+- **Günlük kaydı ve izleme cihazlarının kurulması **; Ağın uygun şekilde günlüğe tutlması ve izlenmesi olmadan, kötü amaçlı etkinliklerin ve izinsiz girişlerin tespit edilmesi mümkün olmayacaktır. Ağımızda yeni bir yetkisiz cihaz belirirse bunu bilmemiz gerekir.
+
+## Security Operations Center (SOC):
+** Security Operations Center (SOC), ağ ve sistemlerde ki ktü niyetli siber güvenlik olaylarını tespit etmek için ağ ve sistemleri izleyen bir siber güvenlik profesyonelleri ekibidir. bir SOC'nin ana ilgi alanlarından bazıları şunlardır ;**
+- ** Zafiyetler **: Bir sistem zafiyeti (zayıflığı) keşfedildiğinde, uygun bir güncelleme veya yama yükleyerek bunu düzeltmek esastır. Bir düzeltme mevcut olmadığında, bir saldırganın bunu istismar etmesini önlemek için gerekli önlemler alınmalıdır. Zafiyetlerin giderilmesi SOC için hayati önem taşımasına rağmen, bu görev mutlaka onlara verilmez.
+- ** Politika ihlalleri **: Bir güvenlik politikasını, ağ ve sistemlerin korunması için gereken kurallar seti olarak düşünebiliriz. Örneğin, kullanıcıların gizli şirket verilerini çevrimiçi bir depolama hizmetine yüklemeye başlaması bir politika ihlali olabilir.
+- ** Yetkisiz faaliyet **: Bir kullanıcının oturum açma adı ve şifresinin çalındığı ve saldırganın bunları kullanarak ağa giriş yaptığı durumu ele alalım. SOC, böyle bir olayı tespit etmeli ve daha fazla hasar oluşmadan önce bunu mümkün olan en kısa sürede engellemelidir.
+- ** Ağ saldırıları **: Güvenliğiniz ne kadar iyi olursa olsun, her zaman bir saldırı olasılığı vardır. Bir kullanıcı kötü niyetli bir bağlantıya tıkladığında veya bir saldırgan bir genel sunucuyu istismar ettiğinde bir saldırı gerçekleşebilir. Her iki durumda da, bir saldırı meydana geldiğinde, daha fazla hasarı önlemek için bunu mümkün olan en kısa sürede tespit etmeliyiz.
+
+*SOC, koruma sağlamak için çeşitli görevleri kapsar; bu görevlerden biri de tehdit istihbaratıdır*
+
+## Tehdit İstihbaratı: 
+- Bu bağlamda istihbarat, mevcut ve potansiyel düşmanlar hakkında topladığınız bilgilere atıfta bulunur. Bir tehdit, bir sistemi kesintiye uğratabilecek veya olumsuz etkileyebilecek herhangi bir eylemdir. Tehdit istihbaratının amacı, şirketin potansiyel düşmanlarla karşı daha iyi hazırlıklı olmasına yardımcı olacak bilgiler toplamaktır. Amaç, tehdit bilgisine dayalı bir savunma elde etmektedir. Farklı şirketlerin farklı düşmanları vardır. Bazı düşmanlar, bir mobil operatörlerden müşteri verilerini çalmaya çalışabilirken, diğer düşmanlar bir petrol rafinerisinde üretimi durdurmakla ilgilenebilir. Örnek düşmanlar arasında siyasi nedenlerle çalışan bir ulus devlet siber ordusu ve finansal amaçlarla hareket eden bir fidye yazılımı gruba bulunur. Şirkete (hedefe) bağlı olarak düşmanlar bekleyebiliriz.
